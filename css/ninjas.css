@@ -1,0 +1,65 @@
+#logomarca{
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+img, iframe{
+	display: block;
+	margin: 0 auto;	
+}
+
+h1, h2{
+	font-family: "Courier New";	
+}
+
+a:link {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: red;
+	text-decoration: italic;
+}
+
+a:hover{
+	color: green;
+	text-decoration: bold italic;
+	font-size: 20px;
+}
+
+a:active{
+	color: purple;
+	text-decoration: bold italic;
+	font-size: 20px;
+}
+
+a[href*="http"]{
+	background-image: url(../img/globo.png);
+	background-repeat: no-repeat;
+	padding-left: 18px;
+}
+
+em.nota {
+	color: #BBBBBB;
+	font-size: 10px;
+}
+
+em.passo {
+	font-family: "Courier New";
+	font-size: 25px; 	
+}
+
+strong {
+	background-color: green;
+	font-family: "Courier New";
+	font-size: 50px; 
+}
+
+body{
+	padding: 150px 150px 150px 150px;
+	background-color: #EEEE77;
+	color: #334477;
+}
+

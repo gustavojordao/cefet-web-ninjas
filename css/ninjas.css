@@ -48,7 +48,8 @@ em.nota {
 
 em.passo {
 	font-family: "Courier New";
-	font-size: 25px; 	
+	font-size: 25px;
+	font-weight: bold;
 }
 
 strong {
@@ -58,8 +59,16 @@ strong {
 }
 
 body{
-	padding: 150px 150px 150px 150px;
+	padding: 150px 150px;
 	background-color: #EEEE77;
 	color: #334477;
+	border: solid;
+	border-width: 150px;
+	min-width: 600px;
+	font-family: "Verdana"
+}
+
+p{
+	text-align: justify;
 }
 
